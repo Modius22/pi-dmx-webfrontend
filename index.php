@@ -9,7 +9,9 @@ echo ('
         <head>
           <meta name="viewport" content="width=device-width" />
           <title>webinterface test</title>
-          <script src="Ressoucre/js/fclock.js" language="javascript"> </script>
+          <script src="Ressource/js/fclock.js" language="javascript"> </script>
+          <script src="Ressource/js/bootstrap.min.js" language="javascript"> </script>
+          <link rel="stylesheet" href="Ressource/css/bootstrap.min.css" />
           <link href="/noUiSlider/nouislider.min.css" rel="stylesheet">
         </head>
 
