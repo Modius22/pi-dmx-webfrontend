@@ -1,7 +1,7 @@
 <?php
 
 define('__ROOT__', (dirname(__FILE__)));
-require_once(__ROOT__.'/function.php');
+require_once(__ROOT__.'/Ressource/function.php');
 
 //header echo
 echo ('
@@ -9,7 +9,7 @@ echo ('
         <head>
           <meta name="viewport" content="width=device-width" />
           <title>webinterface test</title>
-          <script src="clock.js" language="javascript"> </script>
+          <script src="Ressoucre/fclock.js" language="javascript"> </script>
           <link href="/noUiSlider/nouislider.min.css" rel="stylesheet">
         </head>
 
@@ -32,7 +32,7 @@ echo ('
             <td>Ansage</td>
           </tr>
           <tr>
-            <td><form method="get" action="gpio.php">
+            <td><form method="get" action="index.php">
             <input type="submit" value="Go!" name="gpio5_hit">
             </td>
             <td>
@@ -92,7 +92,7 @@ echo ('
               }
               </style>
               <td>Slidertest<br>
-              <form method="GET" action="gpio.php" oninput="numerisch.value=ch1.value">
+              <form method="GET" action="index.php" oninput="numerisch.value=ch1.value">
               <input type="range" name="ch1" min="0" max="255" orient="vertical" id="value_CH1" step="5"
 
               ');
