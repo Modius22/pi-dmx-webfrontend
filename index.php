@@ -1,7 +1,7 @@
 <?php
 
 define('__ROOT__', (dirname(__FILE__)));
-require_once(__ROOT__.'/Ressource/function.php');
+require_once(__ROOT__.'/Ressource/helper/function.php');
 
 //header echo
 echo ('
@@ -9,7 +9,7 @@ echo ('
         <head>
           <meta name="viewport" content="width=device-width" />
           <title>webinterface test</title>
-          <script src="Ressoucre/fclock.js" language="javascript"> </script>
+          <script src="Ressoucre/js/fclock.js" language="javascript"> </script>
           <link href="/noUiSlider/nouislider.min.css" rel="stylesheet">
         </head>
 
